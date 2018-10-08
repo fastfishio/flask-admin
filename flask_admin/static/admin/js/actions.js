@@ -48,6 +48,3 @@ var AdminModelActions = function(actionErrorMessage, actionConfirmations) {
         });
     });
 };
-if ($('#actions_confirmation').length == 1) {
-    var modelActions = new AdminModelActions(JSON.parse($('#message-data').text()), JSON.parse($('#actions-confirmation-data').text()));
-}
